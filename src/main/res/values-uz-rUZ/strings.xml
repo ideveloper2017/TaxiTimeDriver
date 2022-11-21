@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?> <!DOCTYPE resources[<!ENTITY appName "TaxiTime"><!ENTITY appNamealone "TaxiTime"><!ENTITY appNameCaps "TaxiTime"><!ENTITY order "ride"><!ENTITY orders "rides"><!ENTITY ridescap "RIDES"><!ENTITY service "Service">]>
+    <resources xmlns:tools="http://schemas.android.com/tools">
+        <string name="app_name" translatable="false">&appName;</string>
+        <!--navigation_drawer-->
+        <string name="navigation_drawer_open">Navigatsiya ochish</string>
+        <string name="navigation_drawer_close">Navigatsiya yopish</string>
+        <string name="waitingForApproval">Profilingiz vakolatli organimiz tomonidan tekshirilishini kuting...</string>
+        <string name="action_settings">Sozlamalar</string>
+        <string name="close">Berkitish</string>
+        <!--Activity Begin-->
+        <string name="get_moving_with_tranxit">&appName;</string>
+        <string name="enter_your_mail_id">Pochta ID ni kiriting </string>
+        <string name="or_connect_with_social_media">Yoki ijtimoiy tarmoq bilan bog`laning</string>
+        <string name="or" translatable="false">yoki</string>
+        <!--Activity Email -->
+        <string name="whats_your_mail_address">E-pochta manzilingiz ?</string>
+        <string name="sample_mail_id">name@example.com</string>
+        <!--Activity Password -->
+        <string name="welcome_back">Xush kelibsiz, davom etish uchun tizimga kiring </string>
+        <string name="enter_your_password">Parolingizni kiriting</string>
+        <string name="i_forgot_my_password">Parolni unutdingizmi</string>
+        <string name="i_need_to_create_an_account">Yangi profil ochish</string>
+        <!--Activity Register-->
+        <string name="email">Email</string>
+        <string name="name">Ism</string>
+        <string name="phone_number">Tel raqam</string>
+        <string name="password">Parol</string>
+        <string name="first_name">Ism</string>
+        <string name="last_name">Familiya</string>
+        <string name="commision">Xizmat narxi</string>
+        <string name="mobile_no" translatable="false">9876543210</string>
+        <string name="time_taken">Olingan vaqt</string>
+        <string name="extra_price">Qo`shimcha</string>
+        <string name="password_txt" translatable="false">******</string>
+        <string name="mobile_number_validation">Mobil raqamda 10 dan 20 tagacha raqam bo`lishi kerak</string>
+        <string name="sample_base_price" translatable="false">0</string>
+        <string name="sample_distance" translatable="false">1 KM</string>
+        <string name="sample_time_travel" translatable="false">1 hr</string>
+        <string name="enter_your_details">Ro`yxatdan o`tish uchun ma`lumotlarni kiriting</string>
+        <!-- Activity ForgetPassword -->
+        <string name="recover_password">Qayta tiklash uchun Email ID ni kiriting</string>
+        <!-- Edit Activity-->
+        <string name="edit_profile">Profilni tahrirlash</string>
+        <string name="change_password">Parolni o`zgartirmoqchimisiz?</string>
+        <string name="save">SAQLASH</string>
+        <string name="update_success">Profil yangilandi.</string>
+        <!--Show Dailog-->
+        <string name="connect_to_network">Tarmoqqa ulanish yoki dasturdan chiqish</string>
+        <string name="connect_to_wifi">WIFI-ga ulaning</string>
+        <string name="quit">Chiqish</string>
+        <string name="cancel_ride">Bekor qilish &order;</string>
+        <string name="view_receipt">Tasdiq ro`yhatini ko`rish</string>
+        <string name="cancel">Bekor qilish</string>
+        <string name="cencel_request">Haqiqatan ham bekor qilishni xohlaysizmi &order;?</string>
+        <string name="exit_confirm">Tizimdan chiqishni xohlaysizmi?</string>
+        <!-- Error Messages-->
+        <string name="something_went_wrong">Nimadir noto`g`ri bajarildi.</string>
+        <string name="fb_cancel">Facebook-ga kirish bekor qilindi.</string>
+        <string name="fb_error">Facebook orqali kirish amalga oshmadi.</string>
+        <string name="google_login">Google orqali kirish amalga oshmadi.</string>
+        <string name="social_cancel">Ijtimoiy tarmoq orqali kirish bekor qilindi</string>
+        <string name="registration_failed">Ro`yxatdan o`tish bekor qilindi</string>
+        <string name="something_went_wrong_net">Xatolik yuz berdi, iltimos, Internet aloqasini tekshiring.</string>
+        <string name="oops_connect_your_internet">Oops ! Internetni ulang.</string>
+        <string name="server_down">Serverga ulanib bo‘lmadi.</string>
+        <string name="please_try_again">Iltimos qaytadan urunib ko`ring.</string>
+        <string name="email_validation">Elektron pochta ID gizni kiriting.</string>
+        <string name="not_valid_email">Elektron pochta ID si noto`g`ri.</string>
+        <string name="password_validation">Parolni kiriting.</string>
+        <string name="first_name_empty">Ismingizni kiriting</string>
+        <string name="last_name_empty">Familiyangizni kiriting.</string>
+        <string name="mobile_number_empty">Tel raqamingizni kiriting.</string>
+        <string name="request_reject">So`rov rad etildi</string>
+        <string name="request_accept">So`rov muvaffaqiyatli qabul qilindi</string>
+        <string name="request_cancel">Siz so`rovni bekor qildingiz</string>
+        <string name="no_routes_available">Yo`nalish yo`q</string>
+        <string name="write_your_comment">Izoxlaringizni qoldiring</string>
+        <!--Approval status-->
+        <string name="approved" translatable="false">Tasdiqlangan</string>
+        <string name="banned" translatable="false">Taqiqlangan</string>
+        <string name="waiting_for_approval">Tasdiqlashni kuting</string>
+        <!--Wallet Fragment-->
+        <string name="your_wallet_amount">Sizning hamyoningiz miqdori</string>
+        <string name="sample_amount" translatable="false">1450</string>
+        <!--Offline Activity -->
+        <string name="go_online"> Online</string>
+        <string name="go_offline"> OFFLINE</string>
+        <!--Invalid Username and Password-->
+        <string name="invalid_credentials">Foydalanuvchi nomi va paroli noto`g`ri.</string>
+        <!--True or False -->
+        <string name="True" translatable="false">true</string>
+        <string name="False" translatable="false">false</string>
+        <!--Your Trips-->
+        <string name="history">Qaydlar</string>
+        <string name="comments">Izoxlar</string>
+        <string name="no_trips">Buyurtma mavjud emas.</string>
+        <string name="no_upcoming_trips">Qaydlar mavjud emas.</string>
+        <string name="no_rides">Hech qanday &orders; bajarilmadi.</string>
+        <string name="upcoming">Kelgusi</string>
+        <string name="past">O`tgan</string>
+        <string name="payment_methods">To`lov metodlari</string>
+        <string name="sample_name">Will Smith</string>
+        <!--Flow status -->
+        <string name="tap_when_arrived">YETIB KELDI</string>
+        <string name="tap_when_pickedup">JO`NADI</string>
+        <string name="tap_when_dropped">TUSHIB QOLISHNI BOSING</string>
+        <string name="tap_when_paid">TO`LOVNI TASDIQLASH</string>
+        <string name="rate_user">YUBORISH</string>
+        <string name="rate_your_trip">Buyurtmani baholang</string>
+        <!--Change Password-->
+        <string name="change_password_title">Parolni o`zgartirish</string>
+        <string name="current_password">Xozirgi paroll</string>
+        <string name="new_password">Yangi parol</string>
+        <string name="confirm_password">Yangi parolni tasdiqlash</string>
+        <string name="please_enter_current_pass">Iltimos, joriy parolni kiriting.</string>
+        <string name="please_enter_new_pass">Iltimos, yangi parolni kiriting.</string>
+        <string name="different_passwords">Parol mos emas.</string>
+        <!--Side Navigation Menu -->
+        <string name="home">Asosiy</string>
+        <string name="your_trips">Sizning buyurtmalaringiz</string>
+        <string name="english">English</string>
+        <string name="wallet">Hamyon</string>
+        <string name="help">Yordam</string>
+        <string name="earnings">Daromadlar</string>
+        <string name="share">Ulashish</string>
+        <string name="logout">Chiqish</string>
+        <string name="valid_image">Hech qanday rasm topilmadi</string>
+        <string name="user_no_mobile">Foydalanuvchi mobil raqami mavjud emas.</string>
+        <string name="incorrect_otp">Noto`g`ri OTP</string>
+        <string name="otp_validation">OTP ni kiriting</string>
+        <string name="confirm_password_validation">Parol mos emas</string>
+        <string name="confirm_validation">Tasdiqlash paroli 6 dan katta bo`lishi kerak</string>
+        <string name="new_validation">Yabgi parol 6 ta belgidan ko`p bo`lishi kerak</string>
+        <string name="note">Eslatma : Iltimos, ro`yxatdan o`tgan elektron pochta manzilingizga otp yuborishni kiriting</string>
+        <string name="secrete_code">OTP-ni kiriting</string>
+        <string name="reset_password">Parolni tiklash</string>
+        <string name="request_time_out">Vaqt tugadi</string>
+        <string name="cancel_confirm">&order;ni bekor qilmoqchimisiz?</string>
+        <string name="yes">Ha</string>
+        <string name="no">Yo`q</string>
+        <string name="connect_with_social_media">Yoki ijtimoiy tarmoq bilan bog`laning</string>
+        <string name="service">&service;</string>
+        <string name="no_services">Hech qanday xizmat tayinlanmagan</string>
+        <string name="choose_acc">Profilni tanlang</string>
+        <string name="facebook_name" translatable="false">Facebook</string>
+        <string name="google_name" translatable="false">Google</string>
+        <string name="commission">&service; narxi</string>
+        <string name="no_comments">Izoh mavjud emas</string>
+        <string name="base_price">Boshlang`ich narx</string>
+        <string name="distance_price">Masofa narxi</string>
+        <string name="profile">Profil</string>
+        <string name="services_requested">&service; so`ralgan</string>
+        <string name="sos_confirm">Favqulodda qo`ng`iroqni davom ettirishga ishonchingiz komilmi?</string>
+        <string name="choose_type">Turini tanlang</string>
+        <string name="invoice">Hisob </string>
+        <string name="invoice_alone">Hisob</string>
+        <string name="pick_up">Manzilni olish </string>
+        <string name="drop_at">Qoldirilgan manzil </string>
+        <string name="reason_to_cancel">Bekor qilish sababi</string>
+        <string name="booking_id_colon">Buyurtma ID : </string>
+        <string name="booking_id">Buyurtma ID</string>
+        <string name="reason">Sabab</string>
+        <string name="submit">Tasdiqlash</string>
+        <string name="summary">Hamyon</string>
+        <string name="total_rides">JAMI hechqanday &ridescap; yo`q</string>
+        <string name="revenue">Daraomad</string>
+        <string name="schedule_rides">Rejalashtirilgan qaydlar</string>
+        <string name="canceled_rides">Bekor qilingan qaydlar</string>
+        <string name="orders">Buyurtmalar</string>
+        <string name="upcoming_rides">kutilayotgan &orders;</string>
+        <string name="help_msg">Bizning jamoamiz odamlari tez orada siz bilan bog`lanishadi!</string>
+        <string name="no_address">Manzil mavjud emas</string>
+        <string name="email_exist">Elektron pochta allaqachon olingan</string>
+        <string name="first_name_no_number">Ism raqamlarni qabul qilmaydi</string>
+        <string name="last_name_no_number">Familiya raqamlarni qabul qilmaydi</string>
+        <string name="password_size">Parol kamida 6 ta belgidan iborat bo`lishi kerak</string>
+        <string name="sorry_for_inconvinent">Noqulayliklar uchun uzr, yordamchilarimiz hozir band</string>
+        <string name="loading">Yuklanmoqda&#8230;</string>
+        <string name="sample_earnings" translatable="false">0/0</string>
+        <string name="target_completed">Bajarildi</string>
+        <string name="total_earnings">Jami daromad</string>
+        <string name="time">Vaqt</string>
+        <string name="distance">Masofa</string>
+        <string name="amount">Miqdor</string>
+        <string name="drop_address">Oxirgi manzil</string>
+        <string name="where_to">Qayerga?</string>
+        <string name="user">Foydalanuvchi</string>
+        <string name="sample_date_time" translatable="false">30th sept 2017 at 8:30pm</string>
+        <string name="sample">No 10 chennai</string>
+        <string name="call">Qo`ng`iroq qilmoq</string>
+        <string name="please_enter_confirm_pass">ltimos, tasdiqlash parolini kiriting</string>
+        <string name="distance_travelled">Bosib o`tilgan masofa</string>
+        <string name="sample_amt" translatable="false">0</string>
+        <string name="tax">Soliq</string>
+        <string name="total">Umumiy</string>
+        <string name="amount_to_be_paid">To`lanadigan miqdor</string>
+        <string name="rate_your_trips">Buyurtmani baholang</string>
+        <string name="server">Server vaqtincha ishlamayapti.! Iltimos, keyinroq tekshiring.</string>
+        <string name="timer_start">1</string>
+        <string name="schedule">Jadval</string>
+        <string name="accept">Qabul qilish</string>
+        <string name="reject">Bekor qilish</string>
+        <string name="upcoming_trips">Kelgusi buyurtmalar</string>
+        <string name="past_trips">O`tgan buyurtmalar</string>
+        <string name="battery">Batareyangiz kam, iltimos, mobil telefoningizni quvvatlang!</string>
+        <string name="new_version_available">Yangi versiyasi mavjud</string>
+        <string name="update_to_continue">Iltimos, ilovani yangi versiyaga yangilang.</string>
+        <string name="update">Yangilash</string>
+        <string name="no_thanks">Yo`q, raxmat</string>
+        <string name="help_title">&appNameCaps; Yordam</string>
+        <string name="new_password_validation">Yangi parol eski parol bilan bir xil bo`lmasligi kerak.</string>
+        <string name="password_validation1">Parol kamida 6 ta belgidan, maksimal 16 ta belgidan iborat bo`lishi kerak</string>
+        <string name="today_completed">Bugun yakunlangan buyurtma</string>
+        <string name="sign_in">Tizimga kirish</string>
+        <string name="signup">Ro`yxatdan o`tish</string>
+        <string name="fresh">Xush kelibsiz</string>
+        <string name="search">D r i v e</string>
+        <string name="bookmark">E a r n</string>
+        <string name="fresh_description">&appName; bilan tanishish &appNamealone;-dan buyurtmalar qabul qilish bo`yicha xizmatlar ilova foydalanuvchilari.</string>
+        <string name="search_description">O`zingizning xo`jayiningiz bo`ling, o`zingizning jadvalingizni belgilang. Haydovchilikning so`nggi xususiyatlarini bir joyda oling.</string>
+        <string name="bookmark_description">Sizning daromadingiz buyurtmaga bog`liq bo`ladi. Har hafta / oyda o`zingiznikini oling.</string>
+        <string name="version">Versiya</string>
+        <!--Driver extra info-->
+        <string name="nev_documents">Xujjatlar</string>
+        <string name="select_picture">Rasm tanlang</string>
+        <string name="please_select_an_image_to_submit">Yuborish uchun rasmni tanlang</string>
+        <string name="driver">Haydovchi</string>
+        <string name="vehicle">Transport vositasi</string>
+        <string name="vehicle_name_required">So`ralgan avtomobil nomi</string>
+        <string name="vehicle_number_required">Avtomobil raqami</string>
+        <string name="please_select_vehicle_type">Iltimos avtomobil turini tanlang</string>
+        <string name="document_uploaded_successfully">Hujjat yuklandi</string>
+        <string name="vehicle_updated_successfully">Avtomobil tafsilotlari muvaffaqiyatli yangilandi</string>
+        <string name="resubmit_documents">Hujjatlarni qayta yuboriah</string>
+        <string name="select_one">Tanlang</string>
+        <string name="upload_documents">Hujjatlarni yuklash</string>
+        <string name="terms">Men &amp; shartlari va Maxfiylik siyosatiga roziman</string>
+        <string name="address">Address</string>
+        <string name="city">Shaxar</string>
+        <string name="area">Maydon</string>
+        <string name="verification">Tekshirish</string>
+        <string name="verify_your_number">Raqamingizni tasdiqlang</string>
+        <string name="please_enter_your_mobile_number_to_receive_a_verification_code">Tasdiqlash kodini olish uchun mobil raqamingizni kiriting.</string>
+        <string name="i_agree_ro_the_terms_amp_conditions_and_privacy_policy"><![CDATA[Shartlar va Maxfiylik siyosatiga roziman]]></string>
+        <string name="enter_the_code_which_has_been_sent">Yuborilgan kodni kiriting</string>
+        <string name="user_name">Foydalanuvchi Ismi</string>
+        <string name="chat">Suhbat</string>
+        <string name="type_a_message">Xabar yozish</string>
+        <string name="collected_cash">To`plangan naqd pul</string>
+        <string name="revenue_after_service_charge">Xizmat haqidan keyingi daromad</string>
+        <string name="amount_you_have_to_pay">To`lov miqdori</string>
+        <string name="pay_now">Hozir tolash</string>
+        <string name="service_charges">Xizmat narxi</string>
+        <string name="cash_collected">Naqd pul yig`indisi</string>
+        <string name="setting">Sozlama</string>
+        <!-- TODO: Remove or change this placeholder text -->
+        <string name="hello_blank_fragment">Salom bo`sh fragment</string>
+        <string name="on_going">Davom etayotgan</string>
+        <string name="no_past_order_available">Eski buyurtma mavjud emas</string>
+        <string name="_91">(+91)</string>
+        <string name="enter_your_number">Tel raqam kiriting</string>
+        <string name="enter_password_pin">Parol/Pin kod kiriting</string>
+        <string name="rides">Qaydlar</string>
+        <string name="manage_account">Profilni boshqarish</string>
+        <string name="revenue_report">Daromadlar to`g`risida hisobot</string>
+        <string name="withdrawn">Berk</string>--
+        <string name="revenue_s">Daromad</string>
+        <string name="bank_account">Bank hisob raqami</string>
+        <string name="account_holder_name">Hisob egasining ismi</string>
+        <string name="bank_name">Bank Nomi</string>
+        <string name="ifsc_code">IFSC kod</string>
+        <string name="micr_code">MICR kod</string>
+        <string name="account_number">Hisob raqami</string>
+        <string name="account_type">Hisob turi</string>
+        <string name="pending_withdrawal">Chetlatish kutilmoqda</string>
+        <string name="thank_you">Raxmat!</string>
+        <string name="your_withdrawal_was_successful">Cheklov muvaffaqiyatli amalga oshirildi</string>
+        <string name="taxi_meter">Taxi Meter</string>
+        <string name="dot_lines">------------------------------------------------------------------------------------------------------------------------------------------</string>
+        <string name="start_now">Boshlamoq</string>
+        <string name="speed">Tezlik :</string>
+        <string name="enter_otp_code">OTP kodini kiriting</string>
+        <string name="send_otp_again">OTP-ni qayta yuborish</string>
+        <string name="verify">Tasdiqlamoq</string>
+        <string name="choose_a_password_pin">parol / PIN tanlash</string>
+        <string name="already_have_an_account_sign_in_here">Hisobingiz bor! Bu erda tizimga kiring</string>
+        <string name="edit_bank_account">Bank hisobini tahrirlash</string>
+        <string name="current_balance">Joriy balans</string>
+        <string name="withdraw_current_balance">Joriy balansni chiqarib olish</string>
+        <string name="ride_completed">Safar yakunlandi</string>
+    </resources>

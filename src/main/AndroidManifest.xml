@@ -54,7 +54,8 @@
         <activity
             android:name="com.taxitime.driver.Activity.SplashScreen"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -152,7 +153,8 @@
             android:name="com.taxitime.driver.Activity.WelcomeScreenActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" /> <!-- Firebase Notifications -->
-        <service android:name="com.taxitime.driver.FCM.MyFirebaseMessagingService">
+        <service android:name="com.taxitime.driver.FCM.MyFirebaseMessagingService"
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>

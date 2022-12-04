@@ -1386,7 +1386,7 @@ public class Map extends Fragment implements OnMapReadyCallback, LocationListene
 
                 utils.print("Destination Current Lat", "" + crt_lat);
                 utils.print("Destination Current Lng", "" + crt_lng);
-
+                System.out.println(url);
                 final JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
@@ -1773,6 +1773,7 @@ public class Map extends Fragment implements OnMapReadyCallback, LocationListene
                         HashMap<String, String> headers = new HashMap<>();
                         headers.put("X-Requested-With", "XMLHttpRequest");
                         headers.put("Authorization", "Bearer " + token);
+                        System.out.println("Bearer " + token);
                         return headers;
                     }
                 };
@@ -2118,6 +2119,7 @@ public class Map extends Fragment implements OnMapReadyCallback, LocationListene
                     e.printStackTrace();
                 }
             }
+
             final JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.POST, url, param, new Response.Listener<JSONObject>() {
                 @Override
                 public void onResponse(JSONObject response) {
@@ -2179,6 +2181,7 @@ public class Map extends Fragment implements OnMapReadyCallback, LocationListene
             object.put("id", id);
             object.put("cancel_reason", reason);
             Log.e("", "request_id" + id);
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -2265,7 +2268,7 @@ public class Map extends Fragment implements OnMapReadyCallback, LocationListene
         } else {
             method = Request.Method.DELETE;
         }
-
+        System.out.println("URL"+url);
         final JsonArrayRequest jsonObjectRequest = new JsonArrayRequest(method, url, null, new Response.Listener<JSONArray>() {
             @Override
             public void onResponse(JSONArray response) {

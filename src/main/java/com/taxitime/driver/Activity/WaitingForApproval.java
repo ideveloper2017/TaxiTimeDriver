@@ -119,6 +119,7 @@ public class WaitingForApproval extends AppCompatActivity {
                 HashMap<String, String> headers = new HashMap<>();
                 headers.put("X-Requested-With", "XMLHttpRequest");
                 headers.put("Authorization","Bearer "+token);
+
                 return headers;
             }
         };

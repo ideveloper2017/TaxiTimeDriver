@@ -116,10 +116,6 @@ public class otpscreen extends AppCompatActivity {
             }
         });
 
-
-
-
-
         Phonenum.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View view, boolean b) {
@@ -157,19 +153,16 @@ public class otpscreen extends AppCompatActivity {
                             mProg.dismiss();
                             Toast.makeText(otpscreen.this, "Please Register: driverr Not Registered" , Toast.LENGTH_SHORT).show();
                         }
-
                     }
 
                     @Override
                     public void onFailure(Call<UserResponse> call, Throwable t) {
-
+                                t.printStackTrace();
                     }
                 });
             }
         });
     }
-
-
 
     @Override
     public void onBackPressed() {
